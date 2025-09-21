@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Gimena's Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  
+  <header>
+    <h1 class="logo">🌈 My Portfolio</h1>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+      <a href="gimena-cv.pdf" class="cv-link">CV</a>
+    </nav>
+  </header>
+
+  
+  
+<section class="hero" style="text-align: center; padding: 50px 20px;">
+  <img src="ash.jpg" alt="My Profile Picture"
+       style="width:150px; height:150px; border-radius:50%; object-fit:cover; border:4px solid white; box-shadow:0 5px 15px rgba(0,0,0,0.3); margin-bottom:20px;" />
+
+  
+  <div class="hero-text">
+    <h2><span style="color: palevioletred;"> Hello I'm Gimena</span> 👋</h2>
+    <p>A passionate student who loves design, creativity, and technology.</p>
+    <a href="#contact" style="display:inline-block; background:yellow; color:#333; padding:12px 25px; border-radius:30px; margin-top:20px; font-weight:bold; text-decoration:none;">Hire Me</a>
+  </div>
+</section>
+
+
+  
+  <main>
+    <section id="about">
+      <h2>About Me</h2>
+      <p>
+        I’m a hardworking and creative individual, eager to learn and explore new opportunities.
+        This portfolio showcases my skills, projects, and contact details.
+      </p>
+    </section>
+
+    
+    <section id="skills">
+      <h2>Skills</h2>
+      <ul class="skills-list">
+        <li> Creativity</li>
+        <li> Communication</li>
+        <li> Adaptability</li>
+        <li> leadership</li>
+        <li> Verbal Communication</li>
+      </ul>
+    </section>
+
+    
+    <section id="projects">
+      <h2>Projects</h2>
+      <div class="project-grid">
+        <div class="project-card">
+          <h3>🎉 Charity Event</h3>
+          <p>Organized a fundraising event for a local cause.</p>
+        </div>
+        <div class="project-card">
+          <h3>📢 Awareness Poster</h3>
+          <p>Designed a poster for environmental protection.</p>
+        </div>
+        <div class="project-card">
+          <h3>🥗 Recipe Book</h3>
+          <p>Created a digital recipe collection for healthy snacks.</p>
+        </div>
+      </div>
+    </section>
+
+    
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <form action="https://api.web3forms.com/submit" method="POST" id="contactForm" >
+
+        <input type="hidden" name="access_key" value="5862cc23-496f-41bc-8823-8d5f81b69af4">
+
+        <label for="name">Name</label>
+        <input type="text" name="Name" id="name" required />
+
+        <label for="email">Email</label>
+        <input type="email" id="email" required />
+
+        <label for="message">Message</label>
+        <textarea id="message" rows="5" required></textarea>
+
+        <button type="submit">Send</button>
+        <p id="formMessage"></p>
+      </form>
+    </section>
+  </main>
+
+  
+  <footer>
+    <p>&copy; 2025 My Portfolio | Made with ❤️</p>
+  </footer>
+
+  
+</body>
+</html>
+
